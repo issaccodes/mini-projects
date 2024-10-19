@@ -1,35 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
 body, * {
-    margin: 0;
     padding: 0;
-    font-family: poppins, sans-serif;
+    margin: 0;
+    font-family: 'Oxanium', sans-serif;
 }
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    height: 250px;
-    width: 200px;
+
+.element {
     text-align: center;
-    border-radius: 8px;
+    font-weight: 500;
+    padding: 20px;
+    
+}
+
+.green-box {
+    background-color: #A8DF8E;
+    padding: 10px;
+}
+
+.pink-box {
+    background-color: #FFBFBF;
+}
+
+.sub {
+    background-color: #F3FDE8;
+}
+
+.break {
+    background-color: #FFE5E5;
+    font-weight: bold;
+}
+
+.container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #B5CFB7;
-    color: white;
+    height: 100vh;
+    flex-direction: column;
 }
-
-button {
-    background-color: #E7E8D8;
-    border: none;
-    padding: 4px 12px;
-    border-radius: 20px;
-    margin-top: 20px;
-    color: gray;
-}
-
-button:hover {
-    background-color: #BC9F8B;
-    color: white;
-}
-
