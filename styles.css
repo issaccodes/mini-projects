@@ -1,40 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
 
-body, * {
+body {
     padding: 0;
     margin: 0;
     font-family: 'Oxanium', sans-serif;
 }
 
-.element {
-    text-align: center;
-    font-weight: 500;
-    padding: 20px;
-    
-}
-
-.green-box {
-    background-color: #A8DF8E;
-    padding: 10px;
-}
-
-.pink-box {
-    background-color: #FFBFBF;
-}
-
-.sub {
-    background-color: #F3FDE8;
-}
-
-.break {
-    background-color: #FFE5E5;
-    font-weight: bold;
+.container > h1 {
+    color: #E78F81;
 }
 
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    gap: 40px;
+}
+
+.inner-container {
+    display: flex;
+    gap: 10px;
+}
+
+.items {
+    height: 200px;
+    width: 200px;
+    border-radius: 1em;
+    background-color: #B7E0FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+}
+
+.items > p {
+    color: #FFF5CD;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.items > button {
+    border: none;
+    color: #FFFBE6;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: .5em;
+    background-color: #FFCFB3;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF5CD;
 }
